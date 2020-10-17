@@ -9,7 +9,7 @@ f1 = csv.writer(open("flights.csv", "w+"))
 f2 = csv.writer(open("loyality_programms.csv", "w+"))
 f3 = csv.writer(open("users.csv", "w+"))
 
-f1.writerow(['NickName', 'Date', 'Codeshare', 'Flight' 'ArrivalCity', 'ArrivalAirport', 'ArrivalCountry', 'DepartureCity', 'DepartureAirport', 'DepartureCountry'])
+f1.writerow(['NickName', 'Date', 'Codeshare', 'Flight', 'ArrivalCity', 'ArrivalAirport', 'ArrivalCountry', 'DepartureCity', 'DepartureAirport', 'DepartureCountry'])
 
 for x in data:
   for y in x["Registered Flights"]:
